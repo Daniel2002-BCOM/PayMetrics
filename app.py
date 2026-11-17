@@ -7,7 +7,7 @@ from salary_calculator import calculate_salary
 
 # Page configuration
 st.set_page_config(
-    page_title="SalaryIQ",
+    page_title="Paymetrics",
     page_icon="💰",
     layout="wide"
 )
@@ -32,7 +32,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Application title
-st.title("💰 SalaryIQ")
+st.title("💰 Paymetrics")
 st.caption("Employee Compensation & Salary Analytics")
 
 st.divider()
