@@ -1,10 +1,10 @@
-# SalaryIQ – Employee Compensation Intelligence
+# Paymetrics – Employee Compensation Intelligence
 
 An interactive Python-powered employee compensation analytics application designed to simplify salary calculations, visualize compensation structures and generate downloadable financial reports.
 
 ## Project Overview
 
-SalaryIQ transforms employee salary inputs into meaningful financial insights through an interactive dashboard. The application demonstrates Python programming, business logic implementation, data manipulation, data visualization and web application development.
+Paymetrics transforms employee salary inputs into meaningful financial insights through an interactive dashboard. The application demonstrates Python programming, business logic implementation, data manipulation, data visualization and web application development.
 
 ## Key Features
 
