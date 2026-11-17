@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Confidential information
+.env
+.streamlit/secrets.toml
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
