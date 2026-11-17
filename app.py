@@ -42,8 +42,14 @@ with st.sidebar:
 
     st.header("Employee Details")
 
+    company_name = st.text_input(
+        "Company Name",
+        placeholder="Enter company name"
+    )
+
     employee_name = st.text_input(
-        "Employee Name"
+        "Employee Name",
+        placeholder="Enter employee name"
     )
 
     department = st.selectbox(
@@ -96,6 +102,9 @@ result = calculate_salary(
 
 # Employee overview
 st.subheader("Employee Overview")
+st.write(
+    f"**Company:** {company_name or 'Not entered'}"
+)
 
 st.write(
     f"**Employee:** {employee_name or 'Not entered'}"
@@ -217,6 +226,8 @@ st.dataframe(
 
 # Downloadable report
 export_df = report_df.copy()
+
+export_df.insert(0, "Company", company_name)
 
 export_df.insert(
     0, "Employee", employee_name
